@@ -1,5 +1,5 @@
 {
-  "uuid": "f0cf5a45-1f3e-4c72-848f-579b2ac65e95",
+  "uuid": "e26c47c9-ef21-4c98-a239-c5d45e9daf99",
   "name": "Complete Purchase Flow",
   "fullName": "SauceDemo Testing > Complete Purchase Flow",
   "status": "passed",
@@ -9,33 +9,33 @@
       "name": "Given user is on the SauceDemo products page",
       "status": "passed",
       "stage": "finished",
-      "start": 1780813754421,
-      "stop": 1780813755421
+      "start": 1780899599972,
+      "stop": 1780899600972
     },
     {
       "name": "When user selects a product \"Sauce Labs Backpack\"",
       "status": "passed",
       "stage": "finished",
-      "start": 1780813754421,
-      "stop": 1780813755421
+      "start": 1780899599972,
+      "stop": 1780899600972
     },
     {
       "name": "And user clicks on the cart icon",
       "status": "passed",
       "stage": "finished",
-      "start": 1780813754421,
-      "stop": 1780813755421
+      "start": 1780899599972,
+      "stop": 1780899600972
     },
     {
       "name": "Then user should see the cart page",
       "status": "passed",
       "stage": "finished",
-      "start": 1780813754421,
-      "stop": 1780813755421
+      "start": 1780899599972,
+      "stop": 1780899600972
     }
   ],
-  "start": 1780813754421,
-  "stop": 1780813758421,
+  "start": 1780899599972,
+  "stop": 1780899603972,
   "labels": [
     {
       "name": "feature",

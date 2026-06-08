@@ -1,48 +1,48 @@
 {
-  "uuid": "1ff27d0c-439b-4601-a4f3-fb075e5a5945",
+  "uuid": "89d336f6-f82d-4e01-a8db-dd48c4b7585f",
   "name": "Invalid Login Attempt",
   "fullName": "SauceDemo Testing > Invalid Login Attempt",
-  "status": "failed",
+  "status": "passed",
   "stage": "finished",
   "steps": [
     {
       "name": "Given user is on login page",
       "status": "passed",
       "stage": "finished",
-      "start": 1780815923493,
-      "stop": 1780815924493
+      "start": 1780899599979,
+      "stop": 1780899600979
     },
     {
       "name": "When user enters invalid username \"invaliduser\"",
       "status": "passed",
       "stage": "finished",
-      "start": 1780815923493,
-      "stop": 1780815924493
+      "start": 1780899599979,
+      "stop": 1780899600979
     },
     {
       "name": "And user enters invalid password \"wrongpass\"",
       "status": "passed",
       "stage": "finished",
-      "start": 1780815923493,
-      "stop": 1780815924493
+      "start": 1780899599979,
+      "stop": 1780899600979
     },
     {
       "name": "And user clicks login button",
       "status": "passed",
       "stage": "finished",
-      "start": 1780815923493,
-      "stop": 1780815924493
+      "start": 1780899599979,
+      "stop": 1780899600979
     },
     {
       "name": "Then user should see error message \"Invalid credentials\"",
-      "status": "failed",
+      "status": "passed",
       "stage": "finished",
-      "start": 1780815923493,
-      "stop": 1780815924493
+      "start": 1780899599979,
+      "stop": 1780899600979
     }
   ],
-  "start": 1780815923493,
-  "stop": 1780815928493,
+  "start": 1780899599979,
+  "stop": 1780899604979,
   "labels": [
     {
       "name": "feature",

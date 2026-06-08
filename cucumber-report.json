@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3734900
+              "duration": 804399
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1770700
+              "duration": 348399
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 976499
+              "duration": 172900
             }
           },
           {
@@ -58,7 +58,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 959500
+              "duration": 167199
             }
           }
         ],
@@ -82,7 +82,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1388400
+              "duration": 138000
             }
           },
           {
@@ -95,7 +95,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1998899
+              "duration": 181600
             }
           },
           {
@@ -108,7 +108,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2256599
+              "duration": 181099
             }
           },
           {
@@ -121,7 +121,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 797600
+              "duration": 101799
             }
           },
           {
@@ -133,9 +133,8 @@
               "location": "stepDefinitions\\saucedemoSteps.js:27"
             },
             "result": {
-              "status": "failed",
-              "duration": 1615800,
-              "error_message": "Error: Expected error message: \"Invalid credentials\" but login succeeded unexpectedly\n    at World.<anonymous> (C:\\BDD\\stepDefinitions\\saucedemoSteps.js:28:9)"
+              "status": "passed",
+              "duration": 187199
             }
           }
         ],
