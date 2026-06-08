@@ -1,0 +1,61 @@
+{
+  "uuid": "33758692-e328-490c-9713-8adb16597679",
+  "name": "Complete Purchase Flow",
+  "fullName": "SauceDemo Testing > Complete Purchase Flow",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given user is on the SauceDemo products page",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1780815923471,
+      "stop": 1780815924471
+    },
+    {
+      "name": "When user selects a product \"Sauce Labs Backpack\"",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1780815923471,
+      "stop": 1780815924471
+    },
+    {
+      "name": "And user clicks on the cart icon",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1780815923471,
+      "stop": 1780815924471
+    },
+    {
+      "name": "Then user should see the cart page",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1780815923471,
+      "stop": 1780815924471
+    }
+  ],
+  "start": 1780815923471,
+  "stop": 1780815927471,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "SauceDemo Testing"
+    },
+    {
+      "name": "thread",
+      "value": "1"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    },
+    {
+      "name": "framework",
+      "value": "cucumber"
+    }
+  ]
+}

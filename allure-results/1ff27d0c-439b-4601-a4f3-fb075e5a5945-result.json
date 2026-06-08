@@ -1,0 +1,68 @@
+{
+  "uuid": "1ff27d0c-439b-4601-a4f3-fb075e5a5945",
+  "name": "Invalid Login Attempt",
+  "fullName": "SauceDemo Testing > Invalid Login Attempt",
+  "status": "failed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given user is on login page",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1780815923493,
+      "stop": 1780815924493
+    },
+    {
+      "name": "When user enters invalid username \"invaliduser\"",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1780815923493,
+      "stop": 1780815924493
+    },
+    {
+      "name": "And user enters invalid password \"wrongpass\"",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1780815923493,
+      "stop": 1780815924493
+    },
+    {
+      "name": "And user clicks login button",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1780815923493,
+      "stop": 1780815924493
+    },
+    {
+      "name": "Then user should see error message \"Invalid credentials\"",
+      "status": "failed",
+      "stage": "finished",
+      "start": 1780815923493,
+      "stop": 1780815924493
+    }
+  ],
+  "start": 1780815923493,
+  "stop": 1780815928493,
+  "labels": [
+    {
+      "name": "feature",
+      "value": "SauceDemo Testing"
+    },
+    {
+      "name": "thread",
+      "value": "1"
+    },
+    {
+      "name": "host",
+      "value": "localhost"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    },
+    {
+      "name": "framework",
+      "value": "cucumber"
+    }
+  ]
+}

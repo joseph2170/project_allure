@@ -1,0 +1,7 @@
+Scenario: Successful login
+
+    Given user is on login page
+    When user enters valid username
+    And user enters valid password
+    And user clicks login button
+    Then user should see success message

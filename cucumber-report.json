@@ -1,0 +1,153 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "saucedemo-testing;complete-purchase-flow",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Complete Purchase Flow",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on the SauceDemo products page",
+            "match": {
+              "location": "stepDefinitions\\saucedemoSteps.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3734900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user selects a product \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "stepDefinitions\\saucedemoSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1770700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user clicks on the cart icon",
+            "match": {
+              "location": "stepDefinitions\\saucedemoSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 976499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should see the cart page",
+            "match": {
+              "location": "stepDefinitions\\saucedemoSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 959500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "saucedemo-testing;invalid-login-attempt",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Invalid Login Attempt",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefinitions\\login.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1388400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user enters invalid username \"invaliduser\"",
+            "match": {
+              "location": "stepDefinitions\\saucedemoSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1998899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user enters invalid password \"wrongpass\"",
+            "match": {
+              "location": "stepDefinitions\\saucedemoSteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2256599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user clicks login button",
+            "match": {
+              "location": "stepDefinitions\\login.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 797600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should see error message \"Invalid credentials\"",
+            "match": {
+              "location": "stepDefinitions\\saucedemoSteps.js:27"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1615800,
+              "error_message": "Error: Expected error message: \"Invalid credentials\" but login succeeded unexpectedly\n    at World.<anonymous> (C:\\BDD\\stepDefinitions\\saucedemoSteps.js:28:9)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "saucedemo-testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "SauceDemo Testing",
+    "tags": [],
+    "uri": "features\\saucedemo.feature"
+  }
+]
